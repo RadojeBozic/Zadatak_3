@@ -1,0 +1,43 @@
+body {
+    max-width: 90vw;
+    min-width: 20vw;
+    margin: 100px;
+    padding: 0;
+    font-family: sans-serif;
+}
+.heading {
+    padding-left: 10px;
+}
+.gallery {
+    display: grid;
+    width: 100%;
+    /*grid-template-columns: repeat(5, minmax(160px, 200px));*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    grid-template-rows: repeat(auto-fit, minmax(120px, 150px));
+    gap: 30px;
+    margin: 10px;
+    
+}
+.thumb {
+    
+    width: 90%;
+    height: 90%;
+    background-color: rgb(102, 102, 189);
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.description {
+    height: 16px;
+    background-color: rgb(230, 222, 213);
+    color: black ;
+    text-align: center;
+    padding: 10px;
+}
+.text {
+    max-width: 90%;
+   
+    
+}
+
+
